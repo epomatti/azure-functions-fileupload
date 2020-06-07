@@ -1,3 +1,7 @@
+# app
+.vscode
+arnold_uploaded.jpg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +131,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.python_packages
