@@ -3,7 +3,7 @@
 
 name: Python application
 
-on: workflow_dispatch
+on: [push]
 
 jobs:
   build:
