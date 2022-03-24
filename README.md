@@ -1,5 +1,7 @@
 # File Upload with Azure Functions
 
+![python](https://github.com/epomatti/azure-functions-fileupload/actions/workflows/python-app.yml/badge.svg)
+
 File upload implementation with an Azure Functions app.
 
 <img src="arnold.jpg" width=250/>
