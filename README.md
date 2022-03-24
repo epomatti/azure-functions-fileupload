@@ -1,13 +1,20 @@
-# serverless-fileupload
+# File Upload with Azure Functions
 
-An Azure Functions example written in Python to upload files using a multipart form.
+File upload implementation with an Azure Functions app.
+
+<img src="arnold.jpg" width=250/>
+
+### Running it
 
 ```sh
-python3 -m venv .venv
-source .venv/bin/activate
+# install the dependencies
+python3 -m venv env
+. env/bin/activate
 pip install -r requirements.txt
 
-func host start
+# start the function
+func start
 
-curl -v -F filename=arnold.jpg -F upload=@arnold.jpg http://localhost:7071/api/upload
+# upload a file
+curl -v -F filename='arnold.jpg' -F upload='@arnold.jpg' 'http://localhost:7071/api/upload'
 ```
